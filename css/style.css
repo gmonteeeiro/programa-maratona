@@ -2573,10 +2573,13 @@ h5,
   height: 70px;
 }
 
-.logo-patrocinador{
-  /* width: auto; */
-  /* display: inline-block;  */
+.img-sobre-nos{
+  width: 100%;
+  /* max-height: 400px; */
 
+}
+
+.logo-patrocinador{
   padding-bottom: 20px;
 }
 
