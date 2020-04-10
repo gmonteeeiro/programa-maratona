@@ -1324,6 +1324,7 @@ h1, h2, h3, h4, h5,
 .testimonial {
   max-width: 800px;
   margin: 0 auto !important;
+<<<<<<< Updated upstream
   text-align: center; }
   .testimonial blockquote {
     font-size: 1.5rem;
@@ -1332,6 +1333,21 @@ h1, h2, h3, h4, h5,
     max-width: 100px;
     margin: 0 auto;
     border-radius: 50%; }
+=======
+  text-align: center;
+}
+
+.testimonial blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.testimonial figure img {
+  max-width: 100px;
+  margin: 0 0 0 0;
+  border-radius: 50%;
+}
+>>>>>>> Stashed changes
 
 .breadcrumb-custom {
   font-size: 1rem !important; }
@@ -1788,7 +1804,42 @@ h1, h2, h3, h4, h5,
 .post-meta {
   font-size: 13px;
   text-transform: uppercase;
+<<<<<<< Updated upstream
   letter-spacing: .2em; }
   .post-meta a {
     color: #fff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+=======
+  letter-spacing: .2em;
+}
+
+.post-meta a {
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* -- Modificações do Template -- */
+.img-logo{
+  height: 70px;
+}
+
+.logo-patrocinador{
+  /* width: auto; */
+  /* display: inline-block;  */
+
+  padding-bottom: 20px;
+}
+
+.logo-patrocinador img{
+  max-height: 150px;
+  width: auto!important;
+}
+
+.medalha-patrocinador{
+  height: 50px;
+  width: 50px !important;
+
+  margin-right: 10px !important;
+}
+
+>>>>>>> Stashed changes
