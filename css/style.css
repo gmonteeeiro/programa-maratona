@@ -1938,7 +1938,7 @@ h5,
 }
 
 .text-muted {
-  color: #ccc !important;
+  color: #505050 !important;
   font-size: 12px;
   text-transform: uppercase;
 }
@@ -1965,6 +1965,10 @@ h5,
 
 .how-it-work-item p {
   color: white;
+}
+
+.person{
+  margin-bottom: 50px;
 }
 
 .person h3 {
@@ -2593,4 +2597,18 @@ h5,
   width: 50px !important;
 
   margin-right: 10px !important;
+}
+
+.logos-furg {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+.logos-furg img{
+  /* max-width: 200px; */
+  max-height: 100px;
+  max-width: auto;
+  
+  margin-bottom: 20px;
 }
